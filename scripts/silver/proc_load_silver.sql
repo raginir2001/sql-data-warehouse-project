@@ -41,7 +41,7 @@ BEGIN
         cust_key,
         cust_firstname,
         cust_lastname,
-        cust_material_status,
+        cust_marital_status,
     cust_gender,
     cust_create_date
     )
