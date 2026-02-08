@@ -17,7 +17,7 @@ CREATE TABLE silver.crm_cust_info(
     cust_key             NVARCHAR(50),
     cust_firstname       NVARCHAR(50),
     cust_lastname        NVARCHAR(50),
-    cust_marital_status NVARCHAR(50),
+    cust_marital_status  NVARCHAR(50),
     cust_gender          NVARCHAR(50),
     cust_create_date     DATE,
     dwh_create_date      DATETIME2 DEFAULT GETDATE()
@@ -30,6 +30,7 @@ GO
   
 CREATE TABLE silver.crm_prd_info(
     prd_id          INT,
+    cat_id          NVARCHAR(50),
     prd_key         NVARCHAR(50),
     prd_nm          NVARCHAR(50),
     prd_cost        INT,
